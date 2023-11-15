@@ -1,0 +1,24 @@
+.LoginForm {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.LoginInputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza apenas os inputs na direção transversal (horizontal) */
+}
+
+.userLabel,
+.senhaLabel {
+    text-align: left !important;
+}
+
+.buttonMargin {
+    margin: 10px;
+}
+h2 {
+    color: gold; 
+    margin: 0; 
+  }

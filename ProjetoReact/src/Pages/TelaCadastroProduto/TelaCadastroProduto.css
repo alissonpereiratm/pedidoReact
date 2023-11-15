@@ -1,0 +1,13 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh; 
+  }
+  
+  .cadastro {
+    margin-top: 30%;
+    margin-bottom: 20px;
+  }
+  
+ 
