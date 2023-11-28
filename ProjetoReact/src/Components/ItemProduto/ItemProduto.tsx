@@ -21,6 +21,7 @@ const TabelaProduto: React.FC<TabelaProdutoProps> = ({ dados }) => {
             <th>Item</th>
             <th>Nome</th>
             <th>Valor(R$)</th>
+            <th></th>
           </tr>
         </thead>
         {/* Corpo da tabela com os dados */}

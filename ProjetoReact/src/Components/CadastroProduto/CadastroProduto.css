@@ -1,24 +1,77 @@
-.LoginForm {
+UsuarioInputs form {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-.LoginInputs {
-    display: flex;
-    flex-direction: column;
-    align-items: center; /* Centraliza apenas os inputs na direção transversal (horizontal) */
-}
-
-.userLabel,
-.senhaLabel {
-    text-align: left !important;
-}
-
-.buttonMargin {
-    margin: 10px;
-}
-h2 {
-    color: gold; 
-    margin: 0; 
+      flex-direction: row;
+      justify-content: center;
   }
+  
+
+  .ProdutoInputs form div {
+    display: flex;
+      flex-direction: column;
+      align-items: center; 
+      margin-top: 5px;
+  }
+
+  .ProdutoInputs{
+      display: flex;
+      flex-direction: column;
+      justify-content: center !important;
+      align-items: left !important;
+  }
+input {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 80%;
+  box-sizing: border-box; /* Garante que o padding não afete a largura total */
+}
+
+
+
+  .buttonMargin{
+    background-color:#fffb00;
+    color: rgb(23, 13, 116);
+    font-size: 15px;
+    font-weight: 450;
+    border-radius: 5px;
+    margin-top: 15px;
+    justify-content: center ;
+
+  
+  }
+
+
+  .buttonMargin:hover {
+    background-color: #0da31a;
+  }
+
+  .buttonVoltar{
+    background-color:#fffb00;
+    color: rgb(23, 13, 116);
+    font-size: 15px;
+    font-weight: 450;
+    border-radius: 5px;
+    margin-top: 15px;
+    justify-content: center ;
+
+  
+  }
+
+
+  .buttonVoltar:hover {
+    background-color: #6a8174;
+  }
+
+  .labelEstilizada {
+    font-weight: bold;
+    color: wheat;
+    margin-bottom: 5px; /* Espaçamento abaixo do rótulo */
+    margin-right: 10px; /* Espaçamento à direita do rótulo */
+    text-align: left; /* Alinha o texto à esquerda */
+  }
+
+  h2 {
+      color: gold; 
+      margin-top: 10PX;
+    }
