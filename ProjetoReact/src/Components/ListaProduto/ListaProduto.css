@@ -15,7 +15,7 @@ body {
     padding: 20px;
     background-color: #ffffff;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.705);
   }
  
   .espaco-de-texto {
@@ -53,8 +53,8 @@ body {
   
   /* Estilo para os botões */
   button {
-    background-color: #ffcc00; /* Cor de fundo do botão */
-    color: #000; /* Cor do texto do botão */
+    background-color: #2bff00; /* Cor de fundo do botão */
+    color: rgb(255, 255, 255); /* Cor do texto do botão */
     padding: 10px 20px; /* Adiciona espaçamento interno ao botão */
     border: none; /* Remove a borda do botão */
     border-radius: 4px; /* Adiciona bordas arredondadas ao botão */

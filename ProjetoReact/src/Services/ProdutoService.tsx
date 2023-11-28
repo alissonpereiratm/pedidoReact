@@ -1,6 +1,6 @@
 import axios, {AxiosResponse} from 'axios';
 
-const BASE_URL = 'http://localhost:8080/produto';
+const BASE_URL = 'api/produto';
 
 const apiClient = axios.create({
   baseURL: BASE_URL,
@@ -19,6 +19,7 @@ const produtoService = {
     },
   
     createProduto(Produto: Produto): Promise<AxiosResponse<Produto>> {
+      console.log(Produto);
       return apiClient.post<Produto>('/cadastro', Produto);
     },
   

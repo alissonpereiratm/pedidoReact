@@ -7,13 +7,24 @@ interface Produto {
     preco: number;
 }
 
-const ListaProduto = () => {
+const ListaProduto: React.FC = () => {
     const [produtos, setProdutos] = useState<Produto[]>([]);
+
     useEffect(() => {
-        fetch('produto/lista')
-            .then(response => response.json())
-            .then((data: Produto[]) => setProdutos(data))
-            .catch(error => console.error('Erro ao buscar produtos:', error));
+        const fetchProdutos = async () => {
+            try {
+                const response = await fetch('lista/produto');
+                if (!response.ok) {
+                    throw new Error('Erro ao obter produtos da API');
+                }
+                const data: Produto[] = await response.json();
+                setProdutos(data);
+            } catch (error) {
+                console.error('Erro ao buscar produtos:', error);
+            }
+        };
+
+        fetchProdutos();
     }, []);
 
     return (
@@ -36,7 +47,6 @@ const ListaProduto = () => {
                     ))}
                 </tbody>
             </table>
-          
         </div>
     );
 };

@@ -1,11 +1,11 @@
-import GitHubUser from "../../Components/GitHubUsersProps/GitHubUser";
+// import GitHubUser from "../../Components/GitHubUsersProps/GitHubUser";
 
-const PageAutor = () => {
-    return (
-      <>        
-        <GitHubUser username="qmclouca" />
-      </>      
-    )
-  }
+// const PageAutor = () => {
+//     return (
+//       <>        
+//         <GitHubUser username="qmclouca" />
+//       </>      
+//     )
+//   }
   
-  export default PageAutor;
+//   export default PageAutor;
