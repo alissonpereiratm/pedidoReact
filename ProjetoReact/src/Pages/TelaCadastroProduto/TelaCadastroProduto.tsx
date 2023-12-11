@@ -21,7 +21,7 @@ const Produtos = () => {
     };
 
     fetchData();
-  }, []);
+  });
 
   return (
     <>
