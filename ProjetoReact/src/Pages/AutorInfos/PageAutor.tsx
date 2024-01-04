@@ -3,7 +3,7 @@
 // const PageAutor = () => {
 //     return (
 //       <>        
-//         <GitHubUser username="qmclouca" />
+//         <GitHubUser username="alissonpereiratm" />
 //       </>      
 //     )
 //   }
